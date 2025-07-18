@@ -8,6 +8,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 * We've marked Person and Parrot as components for the spring context and used @Autowired on the Parrot
 * field in the Person class. This tells Spring to provide the Person bean with a Parrot bean from the
 * context.
+*
+* This is an example of field injection.
 * */
 
 public class Main {
