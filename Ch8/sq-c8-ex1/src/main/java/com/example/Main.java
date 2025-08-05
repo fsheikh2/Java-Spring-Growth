@@ -1,13 +1,13 @@
-package org.example.sqc8ex1;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SqC8Ex1Application {
+public class Main {
 
     public static void main(String[] args) {
-        SpringApplication.run(SqC8Ex1Application.class, args);
+        SpringApplication.run(Main.class, args);
     }
 
 }
